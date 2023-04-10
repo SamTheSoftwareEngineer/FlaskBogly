@@ -1,0 +1,10 @@
+"""Base template for the application."""
+
+{% block head %}
+    <title>My Application</title>
+{% endblock %}
+
+{% block body %}
+    <h1>My Application</h1>
+    {% block content %}{% endblock %}
+{% endblock %}
